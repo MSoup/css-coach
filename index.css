@@ -40,3 +40,22 @@ nav > div > a {
 nav > div > a:hover {
   border-bottom: 3px solid rgb(250, 185, 185);
 }
+
+.main-pane > section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ flex: 1;
+ border: solid;
+}
+.main-pane {
+  display: flex;
+  justify-content: space-around;
+}
+
+.icon {
+  height: 100px;
+  width: 100px;
+  border: solid red;
+}
